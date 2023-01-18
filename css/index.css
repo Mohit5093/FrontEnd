@@ -1,0 +1,17 @@
+h1{color:red;}
+p{background-color: gray;
+color:green;}
+.Grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 8px;
+    background-color:black;
+    padding: 8px;
+  }
+  
+  .Grid-container div {
+    background-color:darkolivegreen;
+    border: 1px solid gray;
+    text-align: center;
+    font-size: 23px;
+  }
