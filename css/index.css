@@ -1,6 +1,4 @@
-h1{color:red;}
-p{background-color: gray;
-color:green;}
+
 .Grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -9,7 +7,7 @@ color:green;}
     padding: 8px;
   }
   
-  .Grid-container div {
+  .Grid-container > div {
     background-color:darkolivegreen;
     border: 1px solid gray;
     text-align: center;
